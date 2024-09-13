@@ -1,1 +1,0 @@
-the h2 color is yellow because it overrides the firts h2 style.
