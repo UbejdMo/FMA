@@ -1,1 +1,0 @@
-first the styles are applied in the headers that have the class light/dark/new, then the headers that belong to two classes are getting atributtes from both of them.
