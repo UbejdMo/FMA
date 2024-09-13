@@ -1,0 +1,2 @@
+the style_two.css overrides style_one.css if they have the same type of style. if not both styles will be applied.
+if we change the order then it the other way around.

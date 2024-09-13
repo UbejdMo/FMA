@@ -1,0 +1,2 @@
+i noticed that the style .cool is applied to all the headers that are in the "cool" class, 
+and same with the "boring" class.
