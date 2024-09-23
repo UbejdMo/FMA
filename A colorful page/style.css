@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    background: linear-gradient(10deg, rgb(51, 173, 184)30%, rgb(0, 0, 0) 50%);
+    
+    }
+
+body {
+    background-image: url('/back.jpg');
+    background-size: cover;
+}
+nav{
+    background:linear-gradient(20deg, rgb(101, 101, 101)20%, rgb(255, 255, 255)80%);
+    margin:2% auto;
+}
+p{
+    background:linear-gradient(20deg, rgb(255, 0, 0)20%, rgb(58, 53, 53)80%);
+    margin:10% auto;
+}
