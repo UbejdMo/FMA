@@ -1,0 +1,22 @@
+.firstletter {
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+    float: left;
+    line-height: 0.8; 
+    margin-right: 5px;
+
+
+
+    
+}
+.firstword {
+    font-size: 20px;
+   }
+   
+   p{
+    width: 600px;
+    background-color: rgb(179, 182, 183);
+    line-height: 1.5;
+   }
