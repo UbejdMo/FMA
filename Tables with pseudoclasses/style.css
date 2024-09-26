@@ -1,0 +1,19 @@
+tr:nth-child(odd){
+    background-color: green;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(32, 87, 32);
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    width: 35%;
+}
+th,td{
+    padding: 3%;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    color: black;
+}
