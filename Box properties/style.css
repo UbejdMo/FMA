@@ -1,0 +1,21 @@
+p{
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+img{
+    width: 300px;
+    height:150px;
+    margin: 10px;
+    float: left;
+    border: 2px solid black;
+}
+img:hover{
+    border: 2px solid red;
+    width: 310px;
+    padding: 5px;
+    margin: 15px;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='25' height='30' viewport='0 0 100 100' style='fill:black;font-size:15px;'><text y='50%'>🐈</text></svg>") 16 0,auto; 
+}
+img:active{
+    cursor: url(http://www.zingerbugimages.com/cursors/catscratch2.ani), url(http://www.zingerbug.com/cursors/cursors/catscratch2.gif), progress !important;
+}
