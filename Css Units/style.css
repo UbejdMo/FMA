@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section:nth-child(odd){
+    color: white;
+    background-color: rgb(20, 20, 32);
+    height: 25vh;
+}
+section:nth-child(even){
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    height: 25vh;
+}
+p{
+    font-size: 1em;
+    margin: 1em;
+}
+h1{
+    font-size: 3em;
+    text-decoration: underline;
+    
+}
+hr{
+    width: 33%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
