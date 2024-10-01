@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    border: 5px solid black;
+    width: 30%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+.card{
+    background-image: url(cardpic.jpg);
+    background-size: cover;
+    height: 75%;
+    width: 100%;
+    align-self: flex-end;
+}
+.card-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 25%;
+    width: 49.5%;
+
+}
+
+.card-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    height: 25%;
+    width: 49%;
+}
+.card-copyright{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    color: white;
+}
