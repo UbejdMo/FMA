@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr/1fr 7fr;
+}
+
+aside{
+    
+    background-color: #f1f1f1;
+    padding: 2em;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/1fr;
+    background-color: rgb(99, 97, 117);
+}
+aside span{
+    grid-area: 2/1/3/1;
+    text-align: right;
+    color: white;
+    gap: 0.5em;
+}
+aside span p{
+    color: rgb(186, 186, 186);
+}
+aside span button{
+    padding: 0.4em;
+    width: 5.5em;
+    border: 2px solid white;
+    background-color: rgb(99, 97, 117);
+    color: white;
+    cursor: pointer;
+}
+main{
+    display: grid;
+    grid-template: 1fr 1fr/1fr;
+    height: 100vh;
+
+}
+.pinned{
+    width: 80%;
+    grid-area: 1/1/2/1;
+    padding: 3em;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1em;
+}
+.recent{
+    width: 80%;
+    grid-area: 2/1/3/1;
+    padding: 3em;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1em;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.post img{
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    
+}
+.txt{
+    color: rgb(186, 186, 186);
+}
+.user{
+    color: rgb(69, 78, 143);
+    cursor: pointer;
+}
+.cssbtn{
+    color: white;
+    background-color: rgb(29, 142, 63);
+    border: none;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+.htmlbtn{
+    color: white;
+    background-color: rgb(88, 130, 255);
+    border: none;
+    padding: 0.3em 1em;
+    cursor: pointer;
+}
+.js{
+    color: white;
+    background-color: rgb(218, 71, 71);
+    border: none;
+    padding: 0.3em 1em;
+    cursor: pointer;
+}
+
