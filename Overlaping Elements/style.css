@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 2fr 1fr/1fr;
+}
+header{
+    background-color: rgb(47, 196, 132);
+    grid-area: 1/1/2/1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+main{
+    background-color: antiquewhite;
+    grid-area: 1/1/4/1;
+    height: 100%;
+}
+div{
+    margin: 5em 2em;
+    padding: 2em;
+    border-radius: 1em;
+    grid-area:1/1/4/1 ;
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center ;
+}
