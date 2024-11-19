@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges</title>
+</head>
+
+<body>
+    <script>
+        const kilometers = parseFloat(prompt('enter the number of kilometers:'));
+        const miles = kilometers / 1.6;
+        alert(`The number of miles is ${miles.toFixed(2)}`);
+
+        const radius = parseFloat(prompt("Enter the radius of the circle:"));
+        const area = Math.PI * (radius ** 2);
+        alert(`The area of the circle with radius ${radius} is approximately ${area.toFixed(2)} square units.`);
+
+        const euros = parseFloat(prompt("Enter the amount in euros:"));
+        const exchangeRate = 1.1;
+        const dollars = euros * exchangeRate;
+        alert(`${euros} euros is approximately ${dollars.toFixed(2)} dollars.`);
+
+    </script>
+
+</body>
+
+</html>
