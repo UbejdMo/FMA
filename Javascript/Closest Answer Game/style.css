@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-content{
+    border: 1px solid black;
+    border-radius: 4%;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.players{
+    display: flex;
+}
+.player{
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+.player-one, .player-two{
+    background-color: orange;
+}
